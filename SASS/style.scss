@@ -43,6 +43,10 @@ $color-gradiante: linear-gradient(to right, #000000, #fd0000);
 html, body {
     @include body-style;
 }
+
+body::-webkit-scrollbar{
+  display: none;
+} 
   
 body {
     font-family: 'Lato', sans-serif;
